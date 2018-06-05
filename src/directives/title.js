@@ -44,7 +44,6 @@ function showTitle(el, title) {
 
 export default {
     bind(el, binding, vnode) {
-        console.log(typeof el)
         // 使用 const 声明一个只读的常量，其值是需要监听的事件类型列表
         const events = ['mouseenter', 'mouseleave', 'click'];
         // 声明一个处理器，以根据不同的事件类型传不同的参数
