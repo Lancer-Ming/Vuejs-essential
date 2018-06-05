@@ -23,7 +23,10 @@
                     switch (fromName) {
                         case 'Register' :
                             vm.showMsg('注册成功')
-                            break;
+                            break
+                        case 'Login' :
+                            vm.showMsg('登录成功')
+                            break
                     }
                 } else if (logout) {
                     vm.showMsg('操作成功')
